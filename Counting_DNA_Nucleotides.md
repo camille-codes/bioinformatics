@@ -17,3 +17,18 @@ Sample Output
 ```
 Link to the problem
 http://rosalind.info/problems/dna/
+
+## Solution
+
+'''
+from collections import Counter
+
+def counting_DNA_nucleotides(stringDNA):
+  counter = Counter(stringDNA)
+  return (counter['A'], counter['C'], counter['G'], counter['T'])
+
+
+sample_DNA = 'AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC' 
+print(counting_DNA_nucleotides(sample_DNA))
+'''
+
