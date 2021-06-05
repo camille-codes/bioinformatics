@@ -15,3 +15,5 @@ Sample Output
 ```
 20 12 17 21
 ```
+Link to the problem
+http://rosalind.info/problems/dna/
