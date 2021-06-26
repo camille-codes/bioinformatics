@@ -1,7 +1,7 @@
 from collections import Counter
 
 # this function counts the number of nucleotides in a DNA. 
-# It returns a tuple in the format of A, C, G, T
+# It returns a dictionary in the format of A, C, G, T as the keys and the count as the values
 def counting_DNA_nucleotides(string_DNA):
   counter = Counter(string_DNA)
   count_DNA =  {'A': counter['A'], 'C': counter['C'], 'G': counter['G'], 'T': counter['T']}
