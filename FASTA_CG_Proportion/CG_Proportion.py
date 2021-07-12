@@ -12,7 +12,6 @@ def FASTA(filename):
     for ID, DNA in DNA_dict.items():
         CG.update({(DNA.count('C') + DNA.count('G')) / len(DNA) * 100 : ID})
 
-    
     for CG_proportion, ID in CG.items():
         print(ID, CG_proportion)
         if CG_proportion == max(CG):
